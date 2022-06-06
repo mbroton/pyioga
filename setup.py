@@ -17,7 +17,7 @@ setup(
         "click>=8.1.3",
     ],
     entry_points={
-        "console_scripts": ["mybinary=pyioga.__main__:main"],
+        "console_scripts": ["pyioga=pyioga.__main__:main"],
     },
     classifiers=[
         "Intended Audience :: Developers",
