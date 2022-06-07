@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="pyioga",
-    version="0.1.0",
+    version="0.1.1",
     description="Python IMAP OAuth2 Gmail Authenticator Helper",
     url="https://github.com/mbroton/pyioga",
     author="Michal Broton",
