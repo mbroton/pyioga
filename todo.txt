@@ -1,4 +1,0 @@
-- add docstrings
-- add readme
-- tests
-- release new version
