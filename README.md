@@ -1,15 +1,5 @@
 <div id="top"></div>
 
-
-
-<!-- 
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-  -->
-
 <h3 align="center">Pyioga</h3>
 
   <p align="center">
@@ -17,7 +7,6 @@
   </p>
 </div>
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
 This project helps to setup Google OAuth2 authentication for IMAP connection with Gmail.
@@ -47,7 +36,7 @@ pip install pyioga
 Generate token file, based on downloaded client secrets file. During this step a web browser is going to pop up with request for permissions.
 
 ```
-pyioga --client-secret-file <path to client secrets file> --output-file <path e.g. token.json>
+pyioga init --client-secret-file <path to client secrets file> --output-file <path e.g. token.json>
 ```
 
 Having token file, you are ready to go!

@@ -2,7 +2,12 @@ import click
 import pyioga
 
 
-@click.command()
+@click.group()
+def cli():
+    pass
+
+
+@cli.command()
 @click.option(
     "--client-secret-file",
     required=True,
@@ -21,11 +26,11 @@ import pyioga
     help="Port used by local server used by Google to perform `Flow`.",
     type=int,
 )
-def main(client_secret_file: str, output_file: str, port: int) -> None:
+def init(client_secret_file: str, output_file: str, port: int) -> None:
     pyioga.get_authorized_user_file(
         client_secret_file=client_secret_file, output_file=output_file, port=port
     )
 
 
 if __name__ == "__main__":
-    main()
+    init()
