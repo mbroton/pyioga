@@ -20,8 +20,6 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 This project helps to setup Google OAuth2 authentication for IMAP connection with Gmail.
 
 If you want to read emails from Gmail in your automated E2E tests or scripts, you're in a right place!
