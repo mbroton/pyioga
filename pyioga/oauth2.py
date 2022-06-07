@@ -29,7 +29,6 @@ def get_credentials(authorized_user_file: str) -> Credentials:
 def get_authorized_user_file(
     client_secret_file: str, output_file: str, port: int = 0
 ) -> None:
-    """Initial"""
     flow = InstalledAppFlow.from_client_secrets_file(client_secret_file, _SCOPES)
     credentials = flow.run_local_server(port=port)
     _save_credentials(credentials, authorized_user_file=output_file)
